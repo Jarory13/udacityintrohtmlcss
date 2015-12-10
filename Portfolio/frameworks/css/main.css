@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+* {
+    font-family: 'Lato', sans-serif;
+}
+
 @media only print and (max-width: 500px) {
     p {
         display: none;
@@ -78,11 +82,12 @@
 
 h1 {
     margin: 16px;
+    font-weight: 300;
 }
 
 #topimg {
-    max-width: 100px;
-    max-height: 100px;
+   
+    margin: 24px;
 }
 
 #MyTitle {
@@ -91,14 +96,21 @@ h1 {
 
 h4 {
     margin: 8px;
+    font-weight: 300;
 }
 
 .appname {
     text-align: center;
+    font-weight: 900;
+}
+
+.workimg {
+    display: block;
+    margin: 0 auto;
 }
 
 .worklink {
-    
+    text-align: center;
 }
 
 
