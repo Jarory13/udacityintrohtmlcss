@@ -1,0 +1,15 @@
+img {
+	margin: 8px;
+}
+
+.appimg {
+	max-width: 555px;
+	max-height: 300px;
+}
+
+.topimg
+{
+	max-width: 100px;
+	max-height: 100px;
+}
+
