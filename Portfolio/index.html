@@ -4,64 +4,145 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">
         <style type="text/css"></style>
+         <script type="text/javascript" src="js/jquery-1.11.3.min.js">
+        </script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </head>
     <body>
         <div class="container">
+
             <div class="row">
-                <div class="col-md-6"><img class="img-responsive topimg" src="images/questlybutton.png"></div>
+                <div class="col-md-6">
+                  <img class="img-responsive topimg" src="images/questlybutton.png">
+                </div>
+
                 <div class="col-md-6 text-right text-uppercase">
                     <h1>Jarory de Jesus</h1>
                     <h3>Jack-of-All-Trades</h3>
                 </div>
+
             </div>
+
             <div class="row">
                 <div class="col-md-12">
                     <img class="img-responsive" src="images/adventure.png">
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-md-12">
                     <h2>Featured Work</h2>
                 </div>
             </div>
+
             <div class="row text-center">
                 <div class="col-md-6">
-                    <img class="img-responsive center-block appimg"src="images/monochrome.png" data-toggle="modal" data-target="#project1">
+                    <img class="img-responsive center-block appimg" src="images/monochrome.png" 
+                    data-toggle="modal" data-target="#questly">
                     <h3>Questly</h3>
                     <p><a href="http://www.questlyapp.com/">Go to site</a></p>
                 </div>
+
                 <div class="col-md-6">
-                    <img class="img-responsive center-block appimg" src="images/newgame.jpg">
+                    <img class="img-responsive center-block appimg" src="images/newgame.jpg"
+                    data-toggle="modal" data-target="#newgame">
                     <h3>New Game, No Tutorial</h3>
                     <p><a href="https://newgamenotutorial.wordpress.com/">Visit Blog</a></p>
                 </div>
+
             </div>
             <div class="row text-center">
                 <div class="col-md-6">
-                    <img class="img-responsive center-block appimg" src="images/sun.png">
+                    <img class="img-responsive center-block appimg" src="images/sun.png"
+                    data-toggle="modal" data-target="#sunshine">
                     <h3>Sunshine!</h3>
-                    <p><a href="https://github.com/Jarory13/Sunshine-Version-2">Click here for My version of Udacity's Sunshine ap</a></p>
+                    <p><a href="https://github.com/Jarory13/Sunshine-Version-2">Click here for My version of Udacity's Sunshine app</a></p>
+                </div>
+
+             <div class="row text-center">
+                <div class="col-md-6">
+                    <img class="img-responsive center-block appimg" src="images/github.gif"
+                    data-toggle="modal" data-target="#github">
+                    <h3>Sunshine!</h3>
+                    <p><a href="https://github.com/Jarory13">See the all of my projects on Github. </a></p>
                 </div>
             </div>
+
         </div>
 
-        <!-- Modal -->
-      <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
-            </div>
-            <div class="modal-body">
-              <img class="img-responsive" src="images/555.jpeg">
-              This was my first project in this class. I learned a lot about HTML and CSS.
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
+<!-- Questly Modal -->
+<div class="modal fade" id="questly" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
       </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/HomePage.png">
+        Questly is my Flagship project. TaskRabbit Meets Ingress. We're building a game that allows users to fight monsters, take quests, and earn cash.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- New Game, No Tutorial Modal -->
+<div class="modal fade" id="newgame" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/PressStart.jpg">
+        My blog and soapbox, New Game, No Tutorial is where I use video game tropes to explore complex issues.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Sunshine Modal -->
+<div class="modal fade" id="sunshine" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/sunLauncher.png">
+        My first Android App! Written as part of Udacity's Android Nanodegree program. Sunshine uses Open Weather API and SQLite for a simple, lightweight weather app. 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Sunshine Modal -->
+<div class="modal fade" id="github" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/githubcolor.jpg">
+        Where all of my developmetn projects live. Feel free to poke around and see what I'm working on.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     </body>
 </html>
